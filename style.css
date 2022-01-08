@@ -1,0 +1,142 @@
+body{
+    background-image: url(19366.jpg);
+    font-family: verdana;
+    margin: 0px;
+}
+.header{
+    background-color: #333;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu{
+    display: none;
+}
+.navegacion ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-align: center;
+}
+
+.navegacion ul li{
+    display:inline-block;
+}
+.navegacion ul li a{
+    display:block;
+    padding:0.5rem 1rem;
+    transition:all 0.24s
+    
+}
+.navegacion ul li a:hover{
+    background: #4a4a4a;
+}
+
+.ancla{
+    padding-bottom:10px; 
+}
+.main{
+    padding-top: 10rem;
+}
+.separacion{
+    clear:both;
+}
+#cabecera{
+    text-align: center;
+    padding-bottom: 8rem;
+}
+.contenedor_columnas{
+    width: 85%;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+.columnas{
+    width:600Px;
+    background-color: aliceblue;
+    border: 5px solid aqua;
+    border-radius: 1em;
+    margin:5px 5px;
+    display: inline-block;
+    text-align:justify;
+    padding: 3px;
+}
+
+.titulos_columnas{
+    text-align: center;
+}
+
+.educacioncss{
+    text-align: center;
+    left: 0;
+    width: 100%;
+    padding-bottom: 8rem;
+}
+
+.educacioncss a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#conocimientos{
+    width: 300px;
+    border: 5px solid aqua;
+    border-radius: 1em; 
+    background-color: aliceblue;
+    margin: auto; 
+
+}
+#tabla{
+    text-align: left;
+}
+#lenguaje{
+    text-align: left;
+}
+#calificacion{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 10rem;
+    background: #f2f2f2;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+    
+    .menu{
+        display: block;
+        cursor: pointer;
+        color:white;
+        text-align: left;
+        padding-left: 3rem;
+    }
+    .navegacion ul{
+        display: none;
+    }
+    .navegacion ul.show{
+        display: block
+    }
+
+    .navegacion ul li{
+        display:inline-block;
+    }
+    .navegacion ul li a{
+        display:block;
+        padding:0.5rem 1rem;
+        transition:all 0.24s
+
+    }
+    .navegacion ul li a:hover{
+        background: #4a4a4a;
+    }
+}
